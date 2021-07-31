@@ -36,23 +36,23 @@ const mensajeRespuestaCorrectaOIncorrecta = document.getElementById ("mensaje")
 const usuarioSeleccionoRespuestaCorrecta = () =>{
     botonRespuestaCorrecta.style.backgroundColor = "green"
     mensajeRespuestaCorrectaOIncorrecta.textContent = " ¡Respuesta correcta!"
-    botonRespuestaIncorrecta1.style.backgroundColor ="transparent"
-    botonRespuestaIncorrecta2.style.backgroundColor ="transparent"
+    botonRespuestaIncorrecta1.style.backgroundColor ="red"
+    botonRespuestaIncorrecta2.style.backgroundColor ="red"
     
 }
 
 const usuarioSeleccionoRespuestaIncorrecta1 = () => {
     botonRespuestaIncorrecta1.style.backgroundColor= "red"
     mensajeRespuestaCorrectaOIncorrecta.textContent = "Respuesta equivocada!."
-    botonRespuestaCorrecta.style.backgroundColor = "transparent"
-    botonRespuestaIncorrecta2.style.backgroundColor= "transparent"
+    botonRespuestaCorrecta.style.backgroundColor = "green"
+    botonRespuestaIncorrecta2.style.backgroundColor= "red"
 }
 
 
 const usuarioSeleccionoRespuestaIncorrecta2 = () => {
     botonRespuestaIncorrecta2.style.backgroundColor= "red"
-    botonRespuestaCorrecta.style.backgroundColor = "transparent"
-    botonRespuestaIncorrecta1.style.backgroundColor= "transparent"
+    botonRespuestaCorrecta.style.backgroundColor = "green"
+    botonRespuestaIncorrecta1.style.backgroundColor= "red"
     mensajeRespuestaCorrectaOIncorrecta.textContent = "Respuesta equivocada!."
 }
 
